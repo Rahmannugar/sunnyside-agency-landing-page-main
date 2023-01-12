@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap');
+
+#branding-h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+
+#branding-h5 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+
+#branding-h6 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+
+#branding-p {
+    color: hsl(232, 10%, 55%);
+    font-family: 'Barlow', sans-serif;
+}
+
+#branding-div {
+    border-color: hsl(51, 100%, 75%);
+    border-bottom: 14px;
+}
+
+#graphic-h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(167, 40%, 24%);
+}
+
+#graphic-p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(167, 40%, 24%);
+}
+
+#photo-h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(198, 62%, 26%);
+}
+
+#photo-p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(198, 62%, 26%);
+}
+
+#testimonial-h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(220, 2%, 65%);
+    letter-spacing: 3px;
+}
+
+#testimonial-p {
+    color: hsl(0, 0%, 51%);
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1px;
+}
+
+#testimonial-name {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 27%, 19%);
+}
+
+#testimonial-title {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(0, 0%, 59%);
+}
+
+#footer-section {
+    background-color: hsl(168, 64%, 66%);
+}
+
+#footer-h1 {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(168, 27%, 29%);
+}
+
+#footer-section h5 {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(168, 27%, 29%);
+}

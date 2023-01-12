@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+
+#nav-h1 {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+#home-section {
+    font-family: 'Fraunces', serif;
+    background-image: url("./images/mobile/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+#list-container {
+    position: absolute;
+    width: 100vw;
+    left: 100%;
+}
+
+ul {
+    height: 45vh;
+}
+
+li {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+li:hover {
+    background-color: hsl(51, 100%, 49%);
+    padding: 15px 0px;
+    border-radius: 20px;
+    transition: 1s all ease;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#carousel-text {
+    letter-spacing: 5px;
+}
+
+#egg-div {
+    background-image: url("./images/mobile/image-transform.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#cup-div {
+    background-image: url("./images/mobile/image-stand-out.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#graphic-div {
+    background-image: url("./images/mobile/image-graphic-design.jpg");
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#photo-div {
+    background-image: url("./images/mobile/image-photography.jpg");
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 640px) {
+    #home-section {
+        background-image: url("./images/desktop/image-header.jpg");
+        height: 100vh;
+    }
+
+    li {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #list-container {
+        position: relative;
+        width: auto;
+        left: 0%;
+    }
+
+    ul {
+        height: auto;
+    }
+
+    li:hover {
+        background-color: white;
+        padding: 5px 20px;
+        border-radius: 20px;
+        color: black;
+        transition: 1s all ease;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    #graphic-div {
+        background-image: url("./images/desktop/image-graphic-design.jpg");
+    }
+
+    #egg-div {
+        background-image: url("./images/desktop/image-transform.jpg");
+        height: 85vh;
+    }
+
+    #photo-div {
+        background-image: url("./images/desktop/image-photography.jpg");
+    }
+
+    #cup-div {
+        background-image: url("./images/desktop/image-stand-out.jpg");
+        height: 85vh;
+    }
+
+    #audience-section {
+        height: 85vh;
+    }
+
+    #branding-section {
+        height: 85vh;
+    }
+}
